@@ -33,5 +33,10 @@ public class KullaniciController {
     public Kullanici editKullanici(@RequestParam Long id,@RequestBody Kullanici kullanici){
         return kullaniciService.editKullanici(id,kullanici);
     }
+
+    @DeleteMapping("/delete")
+    public void removeKullanici(@RequestParam Long id){
+        kullaniciService.removeKullanici(id);
+    }
 }
 

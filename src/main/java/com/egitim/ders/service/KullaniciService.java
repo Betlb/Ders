@@ -37,4 +37,8 @@ public class KullaniciService {
         kullanicidb.setSurname(kullanici.getSurname());
         return kullaniciRepository.save(kullanicidb);
     }
+
+    public void removeKullanici(Long id) {
+        kullaniciRepository.deleteById(id);
+    }
 }
