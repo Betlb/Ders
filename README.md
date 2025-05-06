@@ -1,10 +1,22 @@
-# Ders
+# User Management Backend - Spring Boot Project
 
-Backend geliştirme giriş projem.
-Springboot kullandım.
+This is a beginner-level backend development project built using **Spring Boot**. It provides a RESTful API for basic user management operations.
 
-Kullanıcı ekleme
-Kullanıcı silme
-Kullanııcı düzenleme 
-Kullanıcı bilgilerini düzenleme
-Kullanıcı bilgilerini getirme fonksiyonlarını gerçekleştirir.
+## Features
+
+The application supports the following user-related functionalities:
+
+- ✅ Add new users  
+- 🗑️ Delete existing users  
+- ✏️ Update user information  
+- 📄 Retrieve user details  
+- 🧩 Edit specific user data  
+
+## Tech Stack
+
+- **Java**
+- **Spring Boot**
+- **Spring Data JPA**
+- **H2**
+- **Gradle**
+
